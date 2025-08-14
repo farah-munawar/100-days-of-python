@@ -28,10 +28,10 @@ while is_race_on:
 
         if racer.xcor() > 230:
             is_race_on = False
-            winning_color = racer.pencolor()
-            if user_bet and winning_color.lower() == user_bet.lower():
-                print(f"You've won! The {winning_color} turtle is the winner!")
+            winning_colour = racer.pencolor()
+            if user_bet and winning_colour.lower() == user_bet.lower():
+                print(f"You've won! The {winning_colour} turtle is the winner!")
             else:
-                print(f"You've lost. The {winning_color} turtle won.")
+                print(f"You've lost. The {winning_colour} turtle won.")
 
 screen.exitonclick()
